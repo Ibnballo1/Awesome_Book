@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <title>Awesome Books</title>
 </head>
 <body>
-    <h1>All Awesome Books</h1>
-    <section class="books-added-box">
+    <h1 class="title">All Awesome Books</h1>
+    <section class="books-added-container">
 
     </section>
-    <section class="add-book-box">
-        <h2>Add a new book</h2>
+    <section class="add-book-container">
+        <h2 class="add-title">Add a new book</h2>
         <form action="#" class="form-add-book">
             <label for="title"></label>
-            <input type="text" id="title" name="titles" placeholder="Title">
+            <input class="inputs" type="text" id="title" name="titles" placeholder="Title">
             <label for="author"></label>
-            <input type="text" id="author" name="authors" placeholder="Author">
+            <input class="inputs" type="text" id="author" name="authors" placeholder="Author">
             <label for="submitBtn"></label>
-            <input type="submit" value="Add" id="submitBtn">
+            <input class="submits" type="submit" value="Add" id="submitBtn">
         </form>
     </section>
 </body>
