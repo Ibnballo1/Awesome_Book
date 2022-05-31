@@ -36,7 +36,8 @@ section {
   display: flex;
   flex-direction: column;
   gap: 7px;
-  width: 40%;
+  width: 65%;
+  padding: 16px;
 }
 
 .inputs {
@@ -50,9 +51,9 @@ section {
 }
 
 .submits {
+  text-align: center;
   align-self: flex-end;
-  width: 12%;
   padding: 8px;
   border-radius: 4px;
-  box-shadow: 5px 10px #000;
+  box-shadow: 5px 5px #000;
 }
